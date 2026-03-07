@@ -1,0 +1,80 @@
+baseURL: "https://iniandrew.github.io/"
+title: Andrew
+theme: PaperMod
+author:
+  name: Andrew
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+languages:
+  en:
+    languageName: English
+    languageCode: en-US
+    weight: 1
+    params:
+      languageAltTitle: English
+  id:
+    languageName: Bahasa Indonesia
+    languageCode: id-ID
+    weight: 2
+    params:
+      languageAltTitle: Indonesia
+
+params:
+  author:
+    name: Andrew
+    email: hi@andrew.my.id
+  defaultTheme: dark
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+
+  homeInfoParams:
+    Title: "Hi, I'm Andrew \U0001F44B"
+    Content: Documentation of everything Andrew has learned.
+
+  socialIcons:
+      - name: github
+        url: "https://github.com/iniandrew"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/chrisdion-andrew/"
+      - name: email
+        url: "mailto:hi@andrew.my.id"
+
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 40
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 50
