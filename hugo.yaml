@@ -3,7 +3,7 @@ title: Andrew
 theme: PaperMod
 author:
   name: Andrew
-defaultContentLanguage: en
+defaultContentLanguage: id
 defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
 
@@ -17,18 +17,18 @@ outputs:
     - JSON
 
 languages:
-  en:
-    languageName: English
-    languageCode: en-US
-    weight: 1
-    params:
-      languageAltTitle: English
   id:
     languageName: Bahasa Indonesia
     languageCode: id-ID
-    weight: 2
+    weight: 1
     params:
       languageAltTitle: Indonesia
+  en:
+    languageName: English
+    languageCode: en-US
+    weight: 2
+    params:
+      languageAltTitle: English
 
 params:
   author:
@@ -44,17 +44,16 @@ params:
   ShowWordCount: true
 
   homeInfoParams:
-    Title: "Hi, I'm Andrew \U0001F44B"
+    Title: "Hi, I'm Andrew 👋"
     Content: Documentation of everything Andrew has learned.
 
   socialIcons:
-      - name: github
-        url: "https://github.com/iniandrew"
-      - name: linkedin
-        url: "https://www.linkedin.com/in/chrisdion-andrew/"
-      - name: email
-        url: "mailto:hi@andrew.my.id"
-
+    - name: github
+      url: "https://github.com/iniandrew"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/chrisdion-andrew/"
+    - name: email
+      url: "mailto:hi@andrew.my.id"
 
 menu:
   main:
