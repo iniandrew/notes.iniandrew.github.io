@@ -1,7 +1,7 @@
 ---
 title: "SQL Injection — Error Based"
 date: 2026-04-03T01:00:01+07:00
-draft: false
+draft: true
 author: "Andrew"
 summary: "Error-Based SQL Injection is a technique where the attacker exploits database error messages to extract information from the database."
 tags: ["Web Penetration Testing", "SQL Injection", "Error Based"]

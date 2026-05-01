@@ -1,7 +1,7 @@
 ---
 title: "SQL Injection — Union Based"
 date: 2026-04-01T01:00:01+07:00
-draft: false
+draft: true
 author: "Andrew"
 summary: "Union-Based SQL Injection is a technique where attackers use the SQL UNION keyword to append additional queries to the original statement, allowing them to extract data from other tables in the database."
 tags: ["Web Penetration Testing", "SQL Injection", "Union Based"]
