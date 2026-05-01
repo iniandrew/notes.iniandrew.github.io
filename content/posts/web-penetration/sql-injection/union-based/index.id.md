@@ -9,7 +9,7 @@ categories: ["Web Penetration Testing", "SQL Injection"]
 description: ""
 ---
 
-# SQL Injection — Union Based (ID)
+# SQL Injection — Union Based
 
 ## Apa Itu SQLi Union-Based?
 
